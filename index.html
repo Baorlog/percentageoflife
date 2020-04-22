@@ -12,17 +12,27 @@
     </header>
     <section id="container">
         <article>
-            <header id="headerInfo">Your information:</header>
-            <div id="PersonInfo">
-                <br>
-                Gender: <input name="PersonGender" id="PersonGender" placeholder="Male/Female"><br><br>
-                Year:   <input name="PersonYear" id="PersonYear" placeholder="YYYY"><br>
-                Month:  <input name="PersonMonth" id="PersonMonth" placeholder="MM"><br>
-                Day:    <input name="PersonDay" id="PersonDay" placeholder="DD"><br>
-                Hour:   <input name="PersonHour" id="PersonHour" placeholder="HH"><br>
-                Minute: <input name="PersonMinute" id="PersonMinute" placeholder="MM"><br>
-                <br>
-                <button onclick="Calculate()">Calculate</button>
+            <header id="headerInfo">Please input your DOB information:</header>
+            <div class="PersonInfo">
+                <div class="column" style="text-align: center;">
+                    <span class="label">Gender:</span><input name="PersonGender" id="PersonGender" placeholder="Male/Female"><br><br>
+                    <span class="label">Year:</span><input name="PersonYear" id="PersonYear" placeholder="YYYY"><br>
+                    <span class="label">Month:</span><input name="PersonMonth" id="PersonMonth" placeholder="MM"><br>
+                    <span class="label">Day:</span><input name="PersonDay" id="PersonDay" placeholder="DD"><br>
+                    <span class="label">Hour:</span><input name="PersonHour" id="PersonHour" placeholder="HH"><br>
+                    <span class="label">Minute:</span><input name="PersonMinute" id="PersonMinute" placeholder="MM"><br>
+                </div>
+                <!-- <div class="column">
+                    <input name="PersonGender" id="PersonGender" placeholder="Male/Female"><br><br>
+                    <input name="PersonYear" id="PersonYear" placeholder="YYYY"><br>
+                    <input name="PersonMonth" id="PersonMonth" placeholder="MM"><br>
+                    <input name="PersonDay" id="PersonDay" placeholder="DD"><br>
+                    <input name="PersonHour" id="PersonHour" placeholder="HH"><br>
+                    <input name="PersonMinute" id="PersonMinute" placeholder="MM"><br>
+                </div> -->
+                <div class="column">
+                    <button onclick="Calculate()">Calculate</button>
+                </div>
             </div>
         </article>
         <hr>
