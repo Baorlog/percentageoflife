@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage of life</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Percentage of life
+    </header>
+    <section id="container">
+        <article>
+            <header id="headerInfo">Your information:</header>
+            <div id="PersonInfo">
+                <br>
+                Gender: <input name="PersonGender" id="PersonGender" placeholder="Male/Female"><br><br>
+                Year:   <input name="PersonYear" id="PersonYear" placeholder="YYYY"><br>
+                Month:  <input name="PersonMonth" id="PersonMonth" placeholder="MM"><br>
+                Day:    <input name="PersonDay" id="PersonDay" placeholder="DD"><br>
+                Hour:   <input name="PersonHour" id="PersonHour" placeholder="HH"><br>
+                Minute: <input name="PersonMinute" id="PersonMinute" placeholder="MM"><br>
+                <br>
+                <button onclick="Calculate()">Calculate</button>
+            </div>
+        </article>
+        <hr>
+        <article>
+            <header>Base on Vietnamese's average life expectancy (2019), you are now</header>
+            <div id="Number">
+                <span id="NumberBig">0</span>
+                <span>
+                    <span id="NumberSmall">.000000</span>
+                    <span id="percent">%</span>
+                </span>
+            </div>
+            <div id="Border">
+                <div id="Progress"></div>
+            </div>
+            <div id="lowBorder">
+                <span style="float: left;">0</span>
+                <span style="float: right;" id="avg"></span>
+            </div>
+            <div id="quote">Life is short, so make the most out of it.</div>
+        </article>
+    </section>
+    <script src="life.js"></script>
+</body>
+</html>

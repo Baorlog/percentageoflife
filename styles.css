@@ -1,0 +1,104 @@
+@font-face {
+    font-family: vegan;
+    src: url(VeganStylePersonalUse-5Y58.ttf);
+}
+
+body {
+    background-color: #FFABAB;
+    background-image: url(background.jpg);
+    background-size:     cover;
+}
+
+header {
+    font-style: bold, italic;
+    font-size: 50px;
+    text-align: center;
+    font-family: vegan;
+}
+
+section article {
+    padding: 20px;
+}
+
+section article header {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headerInfo {
+    text-align: left;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-bottom: 0%; */
+    background-color: #FFABAB;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+#Number {
+    text-align: center;
+}
+
+#NumberBig {
+    text-align: center;
+    font-size: 200px;
+    color: #fff;
+}
+
+#NumberSmall {
+    text-align: left;
+    font-size: 50px;
+    color: #fff;
+}
+
+#percent {
+    text-align: left;
+    font-size: 100px;
+    color: #fff;
+}
+
+#Border {
+    position: relative;
+    border-style: solid;
+    border-color: #fff;
+    border-width: thick;
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    /* height: 50px; */
+}
+
+#lowBorder {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 50px;
+    color: #fff;
+    height: 100px;
+}
+
+#Progress {
+    background-color: #fff;
+    border-radius: 40px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 0%;
+    height: 50px;
+}
+
+#quote {
+    background-color: black;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: vegan;
+    font-size: 40px;
+}
