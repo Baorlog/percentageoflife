@@ -33,11 +33,11 @@ function getBornMillis(){
 
 function getAverageAge(gender) {
     if (gender == "male") {
-        return 71;
+        return 71.7;
     } else if (gender == "female") {
-        return 76.3;
+        return 80.9;
     } else {
-        return 73.6;
+        return 76.3;
     }
 }
 
